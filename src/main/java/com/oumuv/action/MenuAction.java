@@ -21,7 +21,7 @@ public class MenuAction {
 	
 	@Autowired
 	MenuService menuservice;
-	
+	//
 	/**获取用户菜单*/
 	@RequestMapping("/getmenu.do")
 	public void getMenu(@Param("id")Long id,HttpServletRequest request,HttpServletResponse response,Model model){
